@@ -1,0 +1,86 @@
+
+.payment-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #dc7575;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .payment-form {
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input,
+  .input-group textarea,
+  .input-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  .input-group textarea {
+    height: 80px;
+  }
+  
+  .input-group input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+  }
+  
+  .tton {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #4CAF50;
+    color: rgb(77, 188, 21);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .payment-status {
+    padding: 10px;
+    border-radius: 3px;
+  }
+  
+  .payment-status.success {
+    background-color: #dff0d8;
+    color: #3c763d;
+  }
+  
+  .payment-status.error {
+    background-color: #f2dede;
+    color: #a94442;
+  }
+  
+  .qr-scanner {
+    margin-top: 20px;
+  }
+  
+  .qr-scanner h3 {
+    margin-bottom: 10px;
+  }
+  
+  

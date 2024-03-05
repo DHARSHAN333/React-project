@@ -1,0 +1,204 @@
+.onti {
+    border-radius: 20px;
+    border-width: 2px;
+    background-color: rgba(98, 98, 99, 0.101);
+    height:550px;
+    width:450px;
+    box-shadow: 3px 3px 3px rgb(150, 0, 0);
+  }
+  
+  .ontk {
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: rgba(0, 0, 0, 0.929);
+    height:45px;
+    width:410px;
+    
+  }
+
+  .ontl {
+    border-width: 2px;
+    background-color: rgb(0, 0, 0);
+    height:60px;
+    width:1600px;
+    text-align: left;
+  }
+
+
+
+  .ontj{
+   
+    height:700px;
+  }
+
+  .bautton {
+    display: inline-block;
+    border-radius: 24px;
+    background-color: #404143;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 22px;
+    padding: 15px;
+    width: 170px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .bautton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .bautton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .bautton:hover span {
+    padding-right: 25px;
+  }
+  
+  .bautton:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+  .pnti {
+    border-radius: 20px;
+    border-width: 2px;
+    background-color: rgb(220, 150, 37);
+    height:420px;
+    width:400px;
+    box-shadow: rgb(107, 33, 1) 8px 8px 8px;
+    display:inline-block;
+    margin: 15px;
+    
+  }
+  
+  .pntk {
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: rgb(91, 88, 83);
+    height:225px;
+    width:320px;
+    text-align: left;
+  }
+
+  .pntl {
+    
+    border-width: 2px;
+    background-color: rgb(107, 106, 106);
+    height :60px;
+    width:450px;
+    font: 200;
+  }
+
+  .pntll {
+    
+    border-width: 2px;
+    background-color: rgb(12, 12, 12);
+    height :200px;
+    width:410px;
+    font: 200;
+    text-align: left;
+  }
+
+#dp{
+  background-image: -webkit-image-set('https://static.vecteezy.com/system/resources/previews/010/282/085/large_2x/black-background-studio-blank-black-and-gray-background-studio-backdrop-wallpaper-inside-room-abstract-dark-gray-gradient-spotlight-floor-texture-background-free-photo.jpg');
+}
+
+#dq{
+  background-image: -webkit-image-set('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLdYiH9Nc7fDEBtKPLdAM8w9BYkDlxokrY1Q&usqp=CAU');
+  background-size: cover;
+}
+
+#dr{
+  background-image: -webkit-image-set('https://global-uploads.webflow.com/5ca5fe687e34be0992df1fbe/61b5911c9d37d0449acee390_soccer-ball-on-grass-in-corner-kick-position-on-so-2021-08-29-10-46-54-utc-min.jpg');
+  background-size: cover;
+}
+
+
+.btn-group button {
+  background-color: #464748; /* Green background */
+  border: 1px solid rgb(88, 88, 88); /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  border-radius: 3px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #eba235;
+}
+
+#ftp{
+  height:1000px;
+}
+
+
+
+
+.floating1-container{
+  position: fixed;
+  width: 100px;
+  height:100px;
+  bottom:0;
+  right:10;
+  margin: 35px 25px;
+}
+
+.floating1-container:hover {
+  height:300px;
+}
+
+.floating1-container:hover .floating-button{
+  box-shadow: 0 10px 25px black;
+  transform: translatey(5px);
+  transition: all 0.3s;
+}
+
+.floating1-button{
+  position: absolute;
+  width: 265px;
+  height:65px;
+  background: rgb(188, 6, 6);
+  bottom: 0;
+  left:3;
+  border-radius:10px ;
+  color:black;
+  line-height: 65px;
+  text-align: center;
+  font-size: 23px;
+  z-index: 100;
+  box-shadow: 0 10px 25px -5px rgb(11, 11, 11);
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-color: rgb(191, 12, 12);
+}
+
+
+

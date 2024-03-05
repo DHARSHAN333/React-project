@@ -1,0 +1,18 @@
+.app {
+    text-align: center;
+    margin: 20px;
+    
+    
+    h1{
+      color: rgb(134, 4, 4);
+      span{
+
+         color: rgb(234, 93, 93);
+      }
+    }
+  }
+  
+  .dashboard{
+    display: flex;
+    justify-content: space-around;
+  }

@@ -1,0 +1,13 @@
+
+.socials{
+  display: flex;
+  align-items: center;
+  i {
+    margin-right: 18px;
+    transition: color 600ms ease-in-out;
+    cursor: pointer;
+    &:hover {
+      color: #ee2400;
+    }
+  }
+}

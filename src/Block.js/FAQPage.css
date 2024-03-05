@@ -1,0 +1,49 @@
+.faq-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    height:1000px;
+    background-image: url("https://t4.ftcdn.net/jpg/03/50/81/89/360_F_350818949_lJTfzSTDr79e9Kn55PUVZjN19ct20uGc.jpg");
+    background-size: cover;
+  }
+  
+  .faq-section {
+    margin-bottom: 40px;
+  }
+  
+  .faq-item {
+    border-bottom: 1px solid #f90000;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .faq-item h3 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .faq-item p {
+    font-size: 16px;
+    color: #666;
+  }
+
+  .testimonials-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .testimonial {
+    margin-bottom: 40px;
+  }
+  
+  .testimonial h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .testimonial p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }

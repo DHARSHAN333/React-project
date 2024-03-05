@@ -1,0 +1,15 @@
+
+
+.image-wrapper {
+    text-align: center;
+  }
+  
+  .image-wrapper img {
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image-wrapper:hover img {
+    transform: scale(1.05);
+  }

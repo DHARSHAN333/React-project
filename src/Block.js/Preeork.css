@@ -1,0 +1,120 @@
+.hella{
+   
+    height:1800px;
+  }
+
+  .hella1 {
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: rgb(5, 4, 3);
+    height:60px;
+    width:1600px;
+    text-align: left;
+    background-color: #000000;
+  }
+
+  .hella2 {
+    border-radius: 20px;
+    border-width: 2px;
+    background-color: rgb(0, 0, 0);
+    height:420px;
+    width:400px;
+    box-shadow: rgb(0, 0, 0) 8px 8px 8px;
+    display:inline-block;
+    margin: 15px;
+    
+  }
+
+  h4{
+    color: rgb(222, 139, 135);
+  }
+
+  
+#joe1{
+  background-image: -webkit-image-set('');
+}
+#joe2{
+  background-image: -webkit-image-set('');
+}
+#joe3{
+  background-image: -webkit-image-set('');
+}
+#joe4{
+  background-image: -webkit-image-set('');
+}
+#joe5{
+  background-image: -webkit-image-set('');
+}
+#joe6{
+  background-image: -webkit-image-set('');
+}
+#joe7{
+  background-image: -webkit-image-set('');
+}
+ 
+
+ 
+
+
+
+
+  .Tutton {
+    display: inline-block;
+    border-radius: 24px;
+    background-color: #0a5353;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+    width: 120px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .abuttoM {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .abuttoM1 {
+    background-color: #0a8d70; 
+    color: rgb(233, 187, 187); 
+
+  }
+  
+  .abuttoM1:hover {
+    background-color: #a2e869;
+    color: rgb(11, 11, 11);
+  }
